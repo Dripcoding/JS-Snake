@@ -1,7 +1,6 @@
 {
   "name": "JS-Snake",
   "version": "1.0.0",
-  "description": "snake game made with vanilla js",
   "repository": "https://github.com/Dripcoding/JS-Snake.git",
   "author": "Dripcoding <dripcoding@gmail.com>",
   "license": "MIT",
@@ -9,7 +8,7 @@
   "scripts": {
     "build": "npx webpack --config webpack-prod.config.js",
     "start": "node server.js",
-    "dev": "webpack-dev-server --open --d",
+    "dev": "webpack-dev-server --open --mode=development",
     "test": "jest",
     "test-watch": "jest --watch",
     "watch": "webpack --watch"
