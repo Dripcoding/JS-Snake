@@ -5,6 +5,18 @@
   "repository": "https://github.com/Dripcoding/JS-Snake.git",
   "author": "Dripcoding <dripcoding@gmail.com>",
   "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "npx webpack --config webpack-prod.config.js",
+    "start": "node server.js",
+    "dev": "webpack-dev-server --open --d",
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "watch": "webpack --watch"
+  },
+  "engines": {
+    "node": "16.13.x"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
